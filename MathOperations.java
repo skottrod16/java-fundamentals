@@ -9,8 +9,8 @@ public class MathOperations {
 
         double testScore = 6.7;
 
-        System.out.println("Fred and George collected <result> sweets");
-        System.out.println("There are <result> stars in the Milky Way and Andromeda galaxies.");
+        System.out.println("Fred and George collected " + bagOfSweets1 + bagOfSweets2 + " sweets.");
+        System.out.println("There are " + starsInMilkyWay + starsInAndromeda + " stars in the Milky Way and Andromeda galaxies.");
 
         System.out.println("Fred has <result> more sweets than George");
         System.out.println("The Andromeda Galaxy has <result> more stars than the Milky Way");
