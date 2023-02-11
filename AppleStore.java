@@ -14,17 +14,17 @@ public class AppleStore {
 
         System.out.println("-One customer walked in. He bought 4 apples!");
         numOfApples -= 4;
-        numOfCustomers += 1;
+        numOfCustomers++;
         profit = price * 4;
 
         System.out.println("-Another customer walked in. He bought 20 apples!");
         numOfApples -= 20;
-        numOfCustomers += 1;
+        numOfCustomers++ ;
         profit = profit + (price * 20);
 
         System.out.println("-Another customer walked in. She bought 200 apples!");
         numOfApples -= 200;
-        numOfCustomers += 1;
+        numOfCustomers++;
         profit = profit + (price * 200);
 
         System.out.println("-Wow! So far, you made: $" + profit);
