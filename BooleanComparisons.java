@@ -3,13 +3,18 @@ public class BooleanComparisons {
         //Greater than & less than comparisons; switch the signs to see them output. 
         int chemistryGrade = 95;
         int biologyGrade = 75;
+        int englishGrade = 75;
 
-        System.out.println(biologyGrade < chemistryGrade);
+        System.out.println(chemistryGrade != englishGrade);
+        System.out.println(biologyGrade != englishGrade);
 
-        double sales = 37.55;
-        double costs = 5.55;
+        String sentence = "I love this course!";
+        String sentence2 = "I love this course!";
+        System.out.println(sentence.equals(sentence2));
 
-        System.out.println(sales < costs);
+        String sentence3 = "I love coding in Java!";
+        String sentence4 = "I love coding in Java!";
+        System.out.println(!sentence3.equals(sentence4));
 
     }
     
