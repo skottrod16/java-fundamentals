@@ -6,7 +6,7 @@ public class SignUp {
         
         // Instructions for this workbook are on Learn the Part (see the Udemy Video: Workbook 2.5 to access the link).
 
-        Scanner scan = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         
         System.out.println("Welcome to JavaGram! Let's sign you up.");
         
@@ -30,15 +30,17 @@ public class SignUp {
         System.out.println("What country is that?");
         String country = scanner.nextLine();
         
+        
         System.out.println("Thank you for joining JavaGram!");
         System.out.println("\nHere is the information you entered:");
-        System.out.println("\tFirst Name: <firstName>");
-        System.out.println("\tLast Name: <lastName>");
-        System.out.println("\tAge: <age>");
-        System.out.println("\tUsername: <userName>");
-        System.out.println("\tCity: <city>");
-        System.out.println("\tCountry: <country>");
+        System.out.println("\tFirst Name: " + firstName);
+        System.out.println("\tLast Name: " + lastName);
+        System.out.println("\tAge: " + age);
+        System.out.println("\tUsername: " + username);
+        System.out.println("\tCity: " + city);
+        System.out.println("\tCountry: " + country);
 
         //close scanner. It's good practice :D ! 
+        scanner.close();
     }
 }
