@@ -3,12 +3,11 @@ public class WeatherNetwork {
 
         //See Learn the Part for the complete instructions (link in resources folder of Udemy video).  
 
-        
         int temp = 25;  
-
         String forecast = "";
 
         //IF - ELSE IF - ELSE STATEMENTS HERE!
+        if (temp)
         
         
         System.out.println(forecast);
