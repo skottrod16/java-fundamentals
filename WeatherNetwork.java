@@ -7,7 +7,7 @@ public class WeatherNetwork {
         String forecast = "";
 
         //IF - ELSE IF - ELSE STATEMENTS HERE!
-        if (temp)
+        
         
         
         System.out.println(forecast);
