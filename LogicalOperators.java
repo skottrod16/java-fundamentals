@@ -27,3 +27,4 @@ public class LogicalOperators {
 
 // OR Operator || (double pipe); returns TRUE if EITHER comparison is true.
 // AND Operator && (double ampersand); returns TRUE if EVERY comparision is true.
+//The trick is to evaluate the comparison by first ignoring the '!' operator. Then, reverse the result if '!' precedes the comparison. 
