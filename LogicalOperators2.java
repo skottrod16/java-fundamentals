@@ -58,14 +58,26 @@ public class LogicalOperators2 {
         // otherwise: System.out.println("The user is not eligible for a promotion.");
 
         int userAge = 17;
-        boolean isParentPresent = true;
+        boolean isParentPresent = false;
+
+        if(userAge >= 18 || isParentPresent) {
+            System.out.println("You can enter the venue.");
+        } else {
+            System.out.println("You cannot enter the venue.");
+        }
 
         // at least 18 or if parent is present: System.out.println("You can enter the venue.");
         // otherwise: System.out.println("You cannot enter the venue.");
 
 
-        int memberAge = 16;
+        int memberAge = 30;
         boolean hasMembership = false;
+
+        if(memberAge >= 18 || hasMembership) {
+            System.out.println("The user can access the service.");
+        } else {
+            System.out.println("The user cannot access the service.");
+        }
 
         // at least 18 or has a membership: System.out.println("The user can access the service.");
         // otherwise: System.out.println("The user cannot access the service.");
