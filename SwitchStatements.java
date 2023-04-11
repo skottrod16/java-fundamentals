@@ -57,7 +57,7 @@ public class SwitchStatements {
 
         // Section 1: Traffic light colors
         String lightColor = "green";
-        switch (lightcolor) {
+        switch (lightColor) {
             case "green": System.out.println("Go!"); break;
             case "red": System.out.println("Stop!"); break;
             case "yellow": System.out.println("Slow down or speed up!"); break;
@@ -80,7 +80,7 @@ public class SwitchStatements {
             System.out.println("You failed the class!");
         }
             
-        }
+        
         // Determine the letter grade based on the numeric grade (e.g., A, B, C, D, F)
         // Decide whether to use if-else or switch
 
