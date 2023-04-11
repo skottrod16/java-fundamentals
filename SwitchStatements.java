@@ -57,6 +57,12 @@ public class SwitchStatements {
 
         // Section 1: Traffic light colors
         String lightColor = "green";
+        switch (lightcolor) {
+            case "green": System.out.println("Go!"); break;
+            case "red": System.out.println("Stop!"); break;
+            case "yellow": System.out.println("Slow down or speed up!"); break;
+            default: System.out.println("Power outage!");
+        }
         // Determine what action to take based on the traffic light color (e.g., green, yellow, red)
         // Decide whether to use if-else or switch
 
