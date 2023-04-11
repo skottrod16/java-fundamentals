@@ -80,14 +80,19 @@ public class SwitchStatements {
             System.out.println("You failed the class!");
         }
             
-        
         // Determine the letter grade based on the numeric grade (e.g., A, B, C, D, F)
         // Decide whether to use if-else or switch
 
         // Section 3: Browser type
-        String browser = "Chrome";
+        String browser = "Safari";
         // Check if the browser is one of the following: Chrome, Firefox, Safari, Edge, or Opera
         // Decide whether to use if-else or switch
+        switch (browser) {
+            case "Chrome": System.out.println("Enjoy your Chrome extensions!"); break;
+            case "Firefox": System.out.println("Best nonprofit broswer."); break;
+            case "Safari": System.out.println("I see you are a proud Apple user!"); break;
+            default: System.out.println("Curious? What browser do you use?");
+        }
         
         
 
