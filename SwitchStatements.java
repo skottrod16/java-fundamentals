@@ -68,6 +68,19 @@ public class SwitchStatements {
 
         // Section 2: Exam grade
         int grade = 85;
+        if (grade >=90) {
+            System.out.println("You have an A!");
+        } else if (grade >= 80) {
+            System.out.println("You got a B!");
+        } else if (grade >=70) {
+            System.out.println("You got a C!");
+        } else if (grade >= 60) {
+            System.out.println("You got a D!");
+        } else {
+            System.out.println("You failed the class!");
+        }
+            
+        }
         // Determine the letter grade based on the numeric grade (e.g., A, B, C, D, F)
         // Decide whether to use if-else or switch
 
