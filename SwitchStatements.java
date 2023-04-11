@@ -45,7 +45,13 @@ public class SwitchStatements {
         // Section 5: Age and income
         int age = 25;
         int income = 50000;
-        
+
+        if (age >= 18 && age <= 60 && income >= 30000) {
+            System.out.println("Congratulations, you are eligible for the credit card!");
+        } else {
+            System.out.println("Sorry, you are not eligible for the credit card at this time.");
+        }
+
         // Determine eligibility for a specific credit card based on age and income
         // Decide whether to use if-else or switch
 
