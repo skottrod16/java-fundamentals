@@ -3,7 +3,7 @@ public class Calendar {
         
         //See Learn the Part for the complete instructions (link in resources folder of Udemy video).  
 
-        String day = "Friday"; //Can be any day. This is the day my friend wants to hangout. 
+        String day = "Wednesday"; //Can be any day. This is the day my friend wants to hangout. 
         System.out.println("Hey, are you free on " + day + "? \n");
         System.out.println("Hmm, let me check my calendar.");
         
@@ -13,7 +13,7 @@ public class Calendar {
             case "Tuesday": System.out.println("It looks like I have meetings all day."); break;
             case "Wednesday": System.out.println("I have a brow appointment. Another day!"); break;
             case "Thursday": System.out.println("Sorry, Thursday is a date night with my boyfriend!"); break;
-            case "Friday": System.out.println("I'm Free!"); break;
+            case "Friday": System.out.println("I'm free after Shabbat!"); break;
             case "Saturday": System.out.println("I'm free!"); break;
             case "Sunday": System.out.println("I'm free!"); break;
             default: System.out.println("That is not a day, lol");
