@@ -13,7 +13,7 @@ public class Dealership {
                 System.out.println("What is your budget?");
                 double budget = scan.nextDouble();
                 if (budget >= 10000) {
-                    System.out.println("Great! A Nissan Altima is available");
+                    System.out.println("Great! An Aston Martin DB9 Vantage is available");
                     System.out.println("\nDo you have insurance? Write 'yes' or 'no'");
                     scan.nextLine();
                     String insurance = scan.nextLine();
