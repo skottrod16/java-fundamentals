@@ -27,12 +27,9 @@ public class Dealership {
                     } else {
                         System.out.println("Sorry, we cannot sell you a car.");
                     }
-
-
                 } else {
                     System.out.println("We're sorry. You are not eligible");
                 }
-
                 break;
 
             case "b": System.out.println("You chose option " + option); 
@@ -40,16 +37,15 @@ public class Dealership {
             int value = scan.nextInt();
             System.out.println("What is your selling price?");
             int price = scan.nextInt();
-            
             if (value > price && price < 30000) {
                 System.out.println("We will buy your car. Pleasure doing business with you!");
             } else {
                 System.out.println("Sorry, we're not interested.");
             }
             break;
+
             default: System.out.println("Invalid option " + option);             
         }
-
         scan.close();
         }
 }
