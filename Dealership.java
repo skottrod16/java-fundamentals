@@ -8,11 +8,11 @@ public class Dealership {
         System.out.println(" - Select option 'b' to sell a car");
         String option = scan.nextLine();
 
-
-        /******************Part 1******************/
-        System.out.println("you chose option " + option);
-        System.out.println("you chose option " + option);
-        System.out.println("invalid option " + option);
+        switch (option) {
+            case "a": System.out.println("You chose option " + option); break;
+            case "b": System.out.println("You chose option " + option); break;
+            default: System.out.println("Invalid option " + option);             
+        }
 
         /******************Case A******************/
 
