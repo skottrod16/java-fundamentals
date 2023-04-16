@@ -32,6 +32,18 @@ public class Quiz {
 
 
         //Task 2: Check each answer - For each correct answer, add 5 points to the score. 
+        if (answer1.equals("c")) {
+            score += 5;
+        }
+        if (answer2.equals("a")) {
+            score += 5;
+        }
+        if (answer3.equals("d")) {
+            score += 5;
+        }
+        if (answer4.equals("a") || answer4.equals("b")) {
+            score += 5;
+        }
         
         System.out.println("Your final score is: " + score + "/20");
 
@@ -40,6 +52,14 @@ public class Quiz {
         // if the score is 15 or higher, print: "Wow, you know your stuff!";
         // if the score is between 5 and 15, print "Not bad!";
         // else, better luck next time. 
+        
+        if (score >= 15) {
+            System.out.println("Wow, you know your stuff!");
+        } else if (score >= 5) {
+            System.out.println("Not bad!");
+        } else {
+            System.out.println("Better luck next time!");
+        }
 
 
         scan.close();
