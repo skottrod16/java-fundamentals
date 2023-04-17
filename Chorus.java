@@ -16,3 +16,6 @@ public class Chorus {
         System.out.println("Don't blame it on the boogie\n");
     }
 }
+
+//main is a function as well as singChorus.
+//main function runs the application
