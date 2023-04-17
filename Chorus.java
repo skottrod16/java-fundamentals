@@ -19,3 +19,6 @@ public class Chorus {
 
 //main is a function as well as singChorus.
 //main function runs the application
+/*A function is a grouping of code that performs a task. you can reuse the function as many
+ times as you need to. 
+ */
