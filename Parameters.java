@@ -13,5 +13,5 @@ public class Parameters {
 
 /*
  -A parameter stores a value that your function expects to receive.
- -
+ -Paraameters are values the function expects to receive. Arguments are the values being passed in. 
  */
