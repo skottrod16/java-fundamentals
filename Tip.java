@@ -12,6 +12,9 @@ public class Tip {
 
     
     //Task 1: Make a function here. See the doc comment for details.  
+    public static void tipTheWaiter(double bill) {
+        
+    }
 
     /**
      * Function name: tipTheWaiter - calculates a tip and prints it.
