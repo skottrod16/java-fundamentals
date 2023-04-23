@@ -1,13 +1,13 @@
 public class ReturnValues {
     public static void main(String[] args) {
-        calculateArea(2.3, 3.6);
-        calculateArea(1.6, 2.4);
-        calculateArea(2.6, 4.2); 
+        double area1 = calculateArea(2.3, 3.6);
+        double area2 = calculateArea(1.6, 2.4);
+        double area3 = calculateArea(2.6, 4.2); 
     }
 
-    public static void calculateArea(double length, double width) { 
-        double area = length * width ;
-        System.out.println("Area: " + area);
+    public static double calculateArea(double length, double width) { 
+        double area = length * width;
+        return area;
     }
     
 }
