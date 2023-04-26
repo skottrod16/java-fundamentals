@@ -3,6 +3,11 @@ public class ReturnValues {
         double area1 = calculateArea(2.3, 3.6);
         double area2 = calculateArea(1.6, 2.4);
         double area3 = calculateArea(2.6, 4.2); 
+
+        String englishExplanation = explainArea("English");
+        String frenchExplanation = explainArea("French");
+        String spanishExplanation = explainArea("Spanish");
+        String italianExplanation = explainArea("Italian");
     }
 
     public static double calculateArea(double length, double width) { 
