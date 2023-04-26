@@ -11,7 +11,7 @@ public class ReturnValues {
         String spanishExplanation = explainArea("Spanish");
         String italianExplanation = explainArea("Italian");
     }
-
+    //calculateArea returns a double when called.
     public static double calculateArea(double length, double width) { 
         if (length < 0 || width < 0) {
             System.out.println("INVALID DIMENSIONS");
@@ -20,7 +20,7 @@ public class ReturnValues {
         double area = length * width;
         return area;
     }
-
+    //explainArea returns a String when called.
     public static String explainArea(String language) {
         
         switch (language) {
