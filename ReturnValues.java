@@ -11,3 +11,9 @@ public class ReturnValues {
     }
     
 }
+
+// English "Area equals length * width"
+
+// French "La surface est egale a la longueur * la largeur"
+
+// Spanish "area es igual a largo * ancho"
