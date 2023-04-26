@@ -1,15 +1,17 @@
 public class ReturnValues {
     public static void main(String[] args) {
         double area1 = calculateArea(2.3, 3.6);
-        double area2 = calculateArea(1.6, 2.4);
-        double area3 = calculateArea(2.6, 4.2); 
+        printArea(2.3, 3.6, area1);
+        // double area2 = calculateArea(1.6, 2.4);
+        // double area3 = calculateArea(2.6, 4.2); 
 
-        calculateArea(-5, 2.3);
+        // calculateArea(-5, 2.3);
 
         String englishExplanation = explainArea("English");
-        String frenchExplanation = explainArea("French");
-        String spanishExplanation = explainArea("Spanish");
-        String italianExplanation = explainArea("Italian");
+        System.out.println(englishExplanation);
+        // String frenchExplanation = explainArea("French");
+        // String spanishExplanation = explainArea("Spanish");
+        // String italianExplanation = explainArea("Italian");
     }
     //calculateArea returns a double when called.
     public static double calculateArea(double length, double width) { 
@@ -31,10 +33,13 @@ public class ReturnValues {
         }
     }
     
+    public static void printArea(double length, double width, double area) {
+        System.out.println("A rectangle with a length of " + length + " and a width of " + width + " has an area of " + area + ".");
+    }
 }
 
-// English "Area equals length * width"
 
-// French "La surface est egale a la longueur * la largeur"
-
-// Spanish "area es igual a largo * ancho"
+//A method should only be performing a single task because it can be doing so much work that it should not be handling the final result. 
+/*The function printArea's only task is to print the area, it is not performing any computations or calculations, we cannot expect it to return 
+    any values so that is why it remains void as to "String" or "double" that come after "public static ..." in the method. */
+//Void means a method does not return a value.     
