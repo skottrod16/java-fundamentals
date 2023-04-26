@@ -9,6 +9,10 @@ public class ReturnValues {
         double area = length * width;
         return area;
     }
+
+    public static String explainArea(String language) {
+        
+    }
     
 }
 
