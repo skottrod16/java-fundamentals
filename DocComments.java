@@ -4,7 +4,12 @@ public class DocComments {
     }
 
 
-
+    /** 
+     * Function name: greet
+     * 
+     * Inside the function:
+     *  1. prints: 'Hi'
+    */
 
     public static void greet() {
         System.out.println("Hi");
