@@ -5,7 +5,7 @@ public class DocComments {
 
 
     /** 
-     * Function name: greet
+     * Method name: greet
      * 
      * Inside the function:
      *  1. prints: 'Hi'
@@ -16,16 +16,33 @@ public class DocComments {
     }
 
     /**
-     * Function name: printText
+     * Method name: printText
      * @param name (String)
      * @param age (String)
      * 
      * 
-     * Inside the function:
+     * Inside the method:
      *  1. prints the name and age as part of a text
      * 
      */
     public static void printText(String name, String age) {
         System.out.println("Hi, I'm " + name + " and I'm " + age + " years old.");
+    }
+
+
+
+    /**
+     * Method name: calculateArea
+     * 
+     * @param length (double)
+     * @param width (double)
+     * @return (double)
+     * 
+     * Inside the function: 
+     *  1. this method calculates the area and returns it. 
+     */
+    public static double calculateArea(double length, double width) {
+        double area = length * width;
+        return area;
     }
 }
