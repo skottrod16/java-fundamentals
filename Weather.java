@@ -5,6 +5,9 @@ public class Weather {
         double midnight = 55;      //temperature at midnight in fahrenheit
 
         //Task 3 - Call the printTemperatures function. 
+        printTemperatures(noon);
+        printTemperatures(evening);
+        printTemperatures(midnight);
         
         
     }
@@ -26,7 +29,10 @@ public class Weather {
 
      
     //Task 2: Make a function here. See the doc comments below. 
-
+    public static void printTemperatures(double fahrenheit) {
+        System.out.println("F: " + fahrenheit); 
+        System.out.println("C: " + fahrenheitToCelsius(fahrenheit) + "\n");
+    }
     /**
      * Function name: printTemperatures – prints both temperature values. 
      * @param fahrenheit (double)
