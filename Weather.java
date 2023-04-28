@@ -11,6 +11,9 @@ public class Weather {
 
 
     //Task 1: Make a function here. See the doc comments below. 
+    public static double fahrenheitToCelsius(double fahrenheit) {
+        return (fahrenheit - 32) * 5/9;
+    }
 
     /**
      * Function name: fahrenheitToCelsius - converts fahrenheit to celcius
