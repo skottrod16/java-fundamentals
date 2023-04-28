@@ -46,3 +46,6 @@ public class DocComments {
         return area;
     }
 }
+
+
+ //When you write / ** (together of course), Java creates a format and all you have to do is write the method name, give a small description and write the type in parentheses. 
