@@ -13,7 +13,7 @@ public class JavaDraw {
         System.out.println( "Write 4 for snake     " );
 
         //Task 1 – Pick up the user's choice.
-        int animalChoice = scan.nextInt();
+        choice = scan.nextInt();
 
         //Task 3 – Call the draw function, and pass in the user's choice.
         scan.close();
@@ -22,7 +22,14 @@ public class JavaDraw {
 
        //Task 2 – Write a function 
     public static void draw(int choice) {
+        switch (choice) {
+                case value:
+                        
+                        break;
         
+                default:
+                        break;
+        }
     }          
 
     /**
