@@ -23,6 +23,11 @@ public class DiceJack {
     public static boolean areLessThan1(int num1, int num2, int num3) {
         return (num1 < 1 || num2 < 1 || num3 < 1);
     }
+
+    public static boolean areHigherThan6(int num1, int num2, int num3) {
+        return (num1 > 6 || num2 > 6 || num3 > 6);
+    }
+    
     public static int rollDice() {
         double randomNumber = Math.random() * 6;
         randomNumber += 1;
